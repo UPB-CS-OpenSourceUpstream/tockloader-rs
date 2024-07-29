@@ -15,6 +15,22 @@ implemented to make TockLoader usable.
   - [ ] Implement the tockloader serial protocol
   - [ ] Implement the TBF Parser
 
+## Install Prerequisites
+
+### Linux
+
+```bash
+sudo apt update
+sudo apt install libudev-dev
+```
+
+### WSL
+
+```bash
+sudo apt update
+sudo apt install libudev-dev pkg-config
+```
+
 License
 -------
 
